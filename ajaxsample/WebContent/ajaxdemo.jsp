@@ -27,7 +27,8 @@ var tags = [ "Mobiles",
 				"Oneplus",
 				"Vivo",
 				"All Mobiles",
-				"realme" ];
+				"realme",
+				"Samsung" ];
 $( "#autocomplete" ).autocomplete({
   source: function( request, response ) {
           var matcher = new RegExp( "^" + $.ui.autocomplete.escapeRegex( request.term ), "i" );
